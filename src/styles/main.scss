@@ -7,6 +7,7 @@
 @import "../blocks/modules";
 
 $accent-color: #5584ff;
+$text-color: #8492af;
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -25,11 +26,13 @@ h2 {
 
 h4 {
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 700;
 }
 
 p {
     font-size: 18px;
+    font-weight: 400;
+    color: $text-color;
 }
 
 .wrap {
@@ -116,5 +119,46 @@ p {
         height: 770px;
         margin-top: 2px;
         z-index: 2;
+    }
+}
+
+.page-stats {
+    margin-top: 260px;
+}
+
+.block-stats {
+    display: flex;
+    justify-content: space-between;
+    &-item {
+        flex-basis: 33.333%;
+        text-align: center;
+        &__title h4 {
+            letter-spacing: 0.4px;
+        }
+        &__img-1 {
+            background: url(../img/svg/icon-1.svg) no-repeat;
+            width: 80px;
+            height: 76px;
+            margin: 0 auto 58px;
+        }
+        &__img-2 {
+            background: url(../img/svg/icon-2.svg) no-repeat;
+            width: 92px;
+            height: 88px;
+            margin: 0 auto 47px;
+        }
+        &__img-3 {
+            background: url(../img/svg/icon-3.svg) no-repeat;
+            width: 80px;
+            height: 80px;
+            margin: 0px auto 55px;
+        }
+        &__text {
+            width: 365px;
+            margin: 0 auto;
+            letter-spacing: 0.4px;
+            line-height: 30px;
+            margin-top: 21px;
+        }
     }
 }
