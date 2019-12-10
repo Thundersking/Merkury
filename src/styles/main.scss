@@ -1,0 +1,120 @@
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/functions";
+@import "vendor/libs";
+@import "base/fonts";
+@import "base/general";
+@import "../blocks/modules";
+
+$accent-color: #5584ff;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+p {
+    font-size: 18px;
+}
+
+.wrap {
+    max-width: 1710px;
+    margin: 0 auto;
+}
+
+.page-main {
+    background: url(../img/bg.png) no-repeat;
+    background-size: cover;
+    height: 1086px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 54px 15px 135px 15px;
+    &__logo {
+        display: block;
+        background-image: url(../img/Logo.svg);
+        width: 233px;
+        height: 65px;
+    }
+    &__login {
+        border: 1px solid #233a72;
+        padding: 14px 43px;
+        border-radius: 35px;
+        margin-left: 39px;
+        &-item {
+            color: $accent-color;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    &__links {
+        &-item {
+            text-decoration: none;
+            color: #fff;
+            margin-left: 49px;
+            font-size: 18px;
+        }
+    }
+}
+
+.block-main {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+        color: #fff;
+        margin-bottom: 96px;
+        & span {
+            display: block;
+            font-size: 36px;
+            font-weight: 400;
+            color: #8492af;
+            margin-top: 11px;
+        }
+    }
+    &__button {
+        font-size: 18px;
+        font-weight: 700;
+        &-item {
+            text-decoration: none;
+            padding: 13px 54px;
+            background-color: #5584ff;
+            border-radius: 35px;
+            color: #fff;
+            letter-spacing: 0.4px;
+        }
+    }
+    &__dashboard {
+        background-image: url(../img/dashboard.png);
+        background-repeat: no-repeat;
+        width: 1080px;
+        height: 770px;
+        margin-top: 2px;
+        z-index: 2;
+    }
+}
