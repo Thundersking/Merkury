@@ -1,0 +1,16 @@
+<svg id="Группа_2" data-name="Группа 2" xmlns="http://www.w3.org/2000/svg" width="360" height="46" viewBox="0 0 360 46">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #5584ff;
+      }
+
+      .cls-2 {
+        opacity: 0.6;
+      }
+    </style>
+  </defs>
+  <rect id="Prostokąt_18_kopia" data-name="Prostokąt 18 kopia" class="cls-1" x="38" y="22" width="322" height="1"/>
+  <circle id="Elipsa_1_kopia_2" data-name="Elipsa 1 kopia 2" class="cls-2" cx="23" cy="23" r="23"/>
+  <circle id="Elipsa_1_kopia_2-2" data-name="Elipsa 1 kopia 2" class="cls-1" cx="23.005" cy="23.005" r="14.875"/>
+</svg>
